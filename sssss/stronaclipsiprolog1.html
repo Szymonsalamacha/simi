@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<link rel="stylesheet" type="text/css" href="styledostronyclipsiprolog.css"/>
+<title>Strona poświęcona języką Prolog oraz Clips</title>
+</head>
+
+<body>
+<div id="naglowek"><a href="stronaclipsiprolog.html"><p>NAUKA PROLOGA ORAZ CLIPSA DLA STUDENTÓW</p></a></div>
+
+<div class="kolumna lewa">
+    <div class="panelmenu">
+        <p class= "naglowekboczny"><a href="podstrony/prolog.html">Prolog</a></p>
+           <ul>
+                <li><a href="podstrony/zdznb.html">zamiana liczb z dziesietnych na binarne</a></li>
+                <li><a href="podstrony/palindrom.html">palindrom</a></li>
+           
+            </ul>
+    </div>
+    <div class="panelmenu">
+        <p class= "naglowekboczny"><a href="podstrony/clips.html">Clips</a></p>
+           <ul>
+                <li><a href="podstrony/przepisanielisty.html">przepisanie listy</a></li>
+                <li><a href="podstrony/odwracanielisty.html">odwracanie listy</a></li>
+            </ul>
+    </div>
+</div>
+<div class="kolumnasrodek">
+    <div class="panel">
+        <p class="tytuł">Nauka języka Prolog oraz Clips</p> 
+        <p class="zawartosc">Strona została poświęcona nauce programowania w języku prolog oraz clips</p>
+
+    </div>
+</div>
+
+<div class="kolumna prawa">
+    <div class="panelmenu">
+        <p class="naglowekboczny">Wstępne dodawanie i nauka js na stronę</p>
+          
+        <button type="button" onclick="myFunction('przycisk')";> Data i godzina</button>
+        <p id="przycisk"></p>
+     <script>
+        function myFunction()  
+        {
+          document.getElementById("przycisk").innerHTML=Date();
+          
+          setTimeout(()=> 
+          {
+              document.getElementById("przycisk").style.display="none"} ,1000)
+              
+          
+          document.getElementById("przycisk").style.display="initial";}
+
+     </script>
+
+
+
+
+
+    </div>
+</div>
+
+</body>
+</html>

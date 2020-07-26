@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<link rel="stylesheet" type="text/css" href="../styledostronyclipsiprolog.css"/>
+<title>Strona poświęcona języką Prolog oraz Clips</title>
+</head>
+
+<body>
+<div id="naglowek"><a href="../stronaclipsiprolog.html"><p>NAUKA PROLOGA ORAZ CLIPSA DLA STUDENTÓW</p></a></div>
+
+<div class="kolumna lewa">
+    <div class="panelmenu">
+        <p class= "naglowekboczny"><a href="palindrom.html">Prolog</a></p>
+           <ul>
+                <li><a href="zdznb.html">zamiana liczb z dziesietnych na binarne</a></li>
+                <li><a href="palindrom.html">palindrom</a></li>
+           
+            </ul>
+    </div>
+
+    <div class="panelmenu">
+        <p class= "naglowekboczny"><a href="clips.html">Clips</a></p>
+           <ul>
+                <li><a href="przepisanielisty.html">przepisanie listy</a></li>
+                <li><a href="odwracanielisty.html">odwracanie listy</a></li>
+           
+            </ul>
+    </div>
+</div>
+    <div class="kolumnasrodek">
+         <div class="panel">
+             <p class="tytuł">przepisane</p> 
+             <p class="zawartosc"> <pre>
+                (deffacts dane
+                (lista a b c d e f g)
+                (przepisane))
+                
+                (defrule odwracanie
+                ?i <- (lista ?x $?reszta)
+                ?j <- (przepisane $?reszta1)
+                =>
+                (retract ?i ?j)
+                (assert (lista $?reszta))
+                (assert (przepisane  $?reszta1 ?x)))
+                
+                (defrule stop
+                ?i <- (lista)
+                =>
+                (retract ?i))
+             </pre>
+             </p>   
+
+        </div>
+
+
+    </div>
+ 
+</body>
+</html>

@@ -1,0 +1,166 @@
+html {
+    background-color: #e0e0e0;
+    font-family: verdana, tahoma, arial;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1330px;
+    height:900px;
+    background-color: #ffffff;
+    margin: 10px auto 10px auto 10px auto 10px auto ;
+    padding: 0;
+    padding-bottom: 10px;
+    border: 1px solid #000000;
+}
+#naglowek {
+    width: 1330px;
+    height: 250px;
+    background-image:url(zdjecia/zdj2.jpg);
+    background-size:200px;
+    margin: 0;
+    padding: 0;
+}
+#naglowek p {
+    font-family: tahoma;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    padding-left: 20px;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    padding-top: 180px;
+}
+.kolumna {
+    width: 270px;
+    margin: 0;
+}
+
+
+.lewa {
+    float: left;
+    clear: both;
+}
+.prawa {
+    float: right;
+  
+}
+.kolumnasrodek {
+    width: 600px;
+    float: left;
+    margin-left: 95px;
+
+}
+
+.panel {
+    width: 600px;
+    height: 600px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+p.tytuł {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding: 0px 0px 4px 10px;
+    border-left: 10px solid black;
+    border-bottom: 1px solid #cccccc;
+    font-size: 16px;
+    color: #567481;
+    font-weight: bold;
+    text-align: left;
+}
+
+p.zawartosc {
+    font-size: 15px;
+    line-height: 6mm;
+    color: black;
+    padding: 5px;
+    margin: 15px 0px 0px 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+
+.panelmenu {
+    width: 248px;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    background-image: url('zdjecia/naglowek_boczny_tlo.png');
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+a:link, a:visited {
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p.naglowekboczny {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: bold;
+    color: #484848;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+}
+
+div.panelmenu ul{
+    margin: 0;
+    padding: 20px 10px 20px 20px;
+    font-size: 11px;
+    color: #7995a3;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+div.panelmenu li {
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+}
+
+div.panelmenu ul li a:link, div.panelmenu ul li a:visited {
+    text-decoration: none;
+    color:black;
+    font-weight: normal;
+}
+
+div.panelmenu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
